@@ -64,7 +64,7 @@
 {
     if(![super initWithWindowNibName:@"Preferences"])
         return nil;
-    preferences = [[CUPreferences init] alloc];
+    preferences = [[CUPreferences alloc] init];
     return self;
 }
 

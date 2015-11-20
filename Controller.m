@@ -30,7 +30,7 @@
     
     // Setup Preferences model.
     if(!preferences)
-        preferences = [[CUPreferences init] alloc];
+        preferences = [[CUPreferences alloc] init];
     firstLaunch = [preferences firstLaunch];
     
     

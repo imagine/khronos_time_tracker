@@ -285,7 +285,7 @@
         [sessionTable addTableColumn:[tableGenerator createSessionSDateColumn:
                                       [main localizedStringForKey:@"StartDateHeader" value:@"Date" table:@"SessionTable"]]];
     if ([preferences displayForTable:CUPreferencesSessionDisplay column:CUPreferencesSessionDisplayStartTime])
-        [sessionTable addTableColumn:[tableGenerator createSessionETimeColumn:
+        [sessionTable addTableColumn:[tableGenerator createSessionSTimeColumn:
                                       [main localizedStringForKey:@"StartTimeHeader" value:@"Time" table:@"SessionTable"]]];
     if ([preferences displayForTable:CUPreferencesSessionDisplay column:CUPreferencesSessionDisplayEndDate])
         [sessionTable addTableColumn:[tableGenerator createSessionEDateColumn:
